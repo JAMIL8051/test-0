@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to the Hello World App"/>
+    <vue-formulate />
+    <vue-form-generator />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import VueFormulate from './components/VueFormulate';
+import VueFormGenerator from './components/VueFormGenerator';
 
 export default {
   name: 'App',
   components: {
     HelloWorld
+    VueFormulate
+    VueFormGenerator
   }
 }
 </script>
